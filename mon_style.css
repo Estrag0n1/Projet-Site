@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.CarteRep{
+    display: flex;
+}
+
+
+
+h1{
+    color: rgb(232, 35, 35);
+    margin-top: 5;
+}
+
+.Message{
+    color: rgb(232, 35, 35);
+    margin-top: 5;
+    margin-left: 36px;
+}
+
+.Descrip{
+    margin-left: 20px;
+}
+
+.Message2{
+    color: black;
+    margin-top: 5;
+    margin-left: 36px;
+}
+
+img{
+    height: auto;
+    width: 50%;
+    max-width: 25%;
+}
+
+.img-barre{
+    height: auto;
+    min-width: 20px;
+    max-width: 25%;
+    display: flex;
+}
+
+.Logo{
+    height: 7%;
+    width: 7%;
+}
+.Nom_Site{
+    font-size: 350%;
+}
+
+.TITRE_CAT{
+    border: thick double #32a1ce;
+    text-align: center;
+    font-size: xx-large;
+    color: rgba(33, 106, 209, 0.813);
+}
+
+body{
+    background-color:#ffde59;
+}
+
+.img-new{
+    height: 50%;
+    max-width: 50%;
+    display: flex;
+    margin-left: 25%;
+}
+
+.img-fun{
+    max-height: auto;
+    margin-left: 40%;
+}
+
+.middle-text{
+    text-align: center;
+    color:#f8f7f6;
+    font-size: larger;
+}
+
+.Bandeau_Fix{
+    background-color: #f8f7f6;
+
+}
+
+.Fond{
+    display: flex;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+
+button{
+    height: 20px;
+    position: relative;
+    border: 3px dotted green;
+    background-color: rgb(222, 243, 37);
+    margin-left: 40%;
+}
+
+h2{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.alignement{
+    margin: 10px;
+    margin-top: 30px;
+    font-size: larger;
+    color:brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.alignementCarte{
+    margin: 10%;
+    margin-left: 40%;
+    font-size: larger;
+    color:brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Bandeau_Annonce{
+    background-color: #1252b1;
+
+}
+
+
+
+
+.classe-img{
+    display: flex;
+}
+
+.img-menu{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    max-width: 100%;
+    margin: 25%;
+    margin-bottom: 10px;
+}
+
+.img-menu2{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    max-width: 100%;
+    margin: 17%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+.marge-up{
+    margin: 20px;
+    margin: center;
+}
+
+.marge-middle{
+    margin: 100px;
+    margin: center;
+}
+
+.marge-down{
+    margin: 20px;
+    margin: center;
+}
+.Flex{
+    flex: 1;
+    display: flex;
+}
+
+.flex-menu{
+    display: flex;
+}
+
+.flex-middle{
+    display: flex;
+}
+
+.flex-down{
+    display: flex;
+    align-self: center;
+}
+footer{
+    background-color: #f8f7f6;
+}
+
+@media screen and (max-width: 800px){
+    .texte-en-rouge{
+        color: greenyellow;
+    }
+}
